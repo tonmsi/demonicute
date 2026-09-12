@@ -1,0 +1,20 @@
+{
+  "source": "Demonicute_GDD_Living_Document_v0_1_2.docx",
+  "sha256": "ac1d1949196036462bc9257e85002e3d9aca9981693d9c3872aa3c2a45dea473",
+  "body_paragraphs_extracted": 1346,
+  "body_paragraphs_xml": 1346,
+  "body_tables_extracted": 53,
+  "body_tables_xml": 53,
+  "total_paragraphs_extracted": 1352,
+  "additional_xml_parts": [
+    "word/footnotes.xml",
+    "word/endnotes.xml",
+    "word/header1.xml",
+    "word/footer1.xml"
+  ],
+  "embedded_media": [],
+  "tracked_changes": {
+    "insertions": 0,
+    "deletions": 0
+  }
+}

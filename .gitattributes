@@ -1,0 +1,13 @@
+# Preserve the author's exact source bytes: their hashes are verified by tests.
+docs/sources/** -text
+docs/addendum-1.md -text
+docs/specification.md -text
+
+# Source code and configuration use the same line endings on Windows and Render.
+*.ts text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+docs/sources/*.json -text !eol
+*.cmd text eol=crlf

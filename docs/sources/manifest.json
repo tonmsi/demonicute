@@ -1,0 +1,260 @@
+{
+  "audit_date": "2026-09-10",
+  "search_scope": [
+    "../demo",
+    "."
+  ],
+  "official_catalog_denominator": null,
+  "official_card_types_implemented_verified": 0,
+  "fixture_types_count_toward_official_coverage": false,
+  "sources": [
+    {
+      "id": "gdd",
+      "path": "esempi di carte/Demonicute_GDD_Living_Document_v0_1_2.docx",
+      "status": "available_read",
+      "bytes": 80440,
+      "sha256": "ac1d1949196036462bc9257e85002e3d9aca9981693d9c3872aa3c2a45dea473",
+      "authority": "Regole generali provvisorie; conservare stati GDD"
+    },
+    {
+      "id": "specification",
+      "path": "docs/specification.md",
+      "status": "available_read",
+      "bytes": 23361,
+      "sha256": "ef380d0d8a99c36d1277e5953295a50deb48ed99fbe5a458bbc381a6fc16ad87",
+      "authority": "Nota corrente: Addendum 1, lista autore del 10 settembre per i 60 Demoni, JSON indicato per i soli costi; bozza storica preservata"
+    },
+    {
+      "id": "demons_excel",
+      "expected_name": "cutes 26-07-12.xlsx",
+      "status": "not_found_in_project_directories",
+      "sha256": null,
+      "authority": "Precedente fonte richiesta: vincolo superato per i60Demoni dalla nuova lista autore e JSON dei soli costi"
+    },
+    {
+      "id": "tribute_pdf",
+      "expected_name": "90 X CARTE TRIBUTO_STAMPA A4_08 09 2026.pdf",
+      "status": "available_extracted_visually_verified",
+      "sha256": "cdaa27ed78723a188ad60f6b6466900ef357cd51b860bf7a0d89b869a7986f5e",
+      "authority": "Testi e immagini Tributo da esaminare; conflitti con Excel non risolti",
+      "path": "esempi di carte/90 X CARTE TRIBUTO_STAMPA A4_08 09 2026.pdf",
+      "bytes": 13003310,
+      "pages": 10,
+      "page_count_evidence": "Agente asset: PDF verificato di 10 pagine A4",
+      "active_game_content": false,
+      "review_document": "docs/CARD_ASSETS.md",
+      "card_occurrences": 90,
+      "distinct_card_images": 89
+    },
+    {
+      "id": "card_images",
+      "expected_name": "Immagini originali delle carte",
+      "status": "available_subset_visually_verified",
+      "authority": "Asset originali, incluse Venerare altri e Succo di demone",
+      "active_game_content": false,
+      "review_document": "docs/CARD_ASSETS.md",
+      "files": [
+        {
+          "id": "source-succodidemone",
+          "path": "esempi di carte/WhatsApp Image 2026-09-08 at 08.56.26.jpeg",
+          "title": "Succo di demone",
+          "bytes": 235678,
+          "sha256": "c76e5795d0dfbc68a54683112dac36e85c70db3312a8f338671dbfd534b16de9",
+          "width": 744,
+          "height": 1039,
+          "visual_status": "legible_original_verified_by_asset_agent",
+          "active_game_content": false,
+          "suspension_reason": "sleep-wake-and-tribute-rules-unresolved"
+        },
+        {
+          "id": "source-venerarealtri",
+          "path": "esempi di carte/WhatsApp Image 2026-09-08 at 08.56.51.jpeg",
+          "title": "Venerare altri",
+          "bytes": 136890,
+          "sha256": "49542a2ec147f9574d3988a48338689480217fadb6e62a9ae147b41706186641",
+          "width": 744,
+          "height": 1039,
+          "visual_status": "legible_original_verified_by_asset_agent",
+          "active_game_content": false,
+          "suspension_reason": "specific-boss-window-deck-and-interruption-pending"
+        }
+      ]
+    },
+    {
+      "id": "legacy_python",
+      "path": "../demo",
+      "status": "read_only_reference",
+      "authority": "Non fonte prevalente; nessun import automatico",
+      "files": [
+        {
+          "path": "add_magic_helpers.py",
+          "sha256": "387fb9bb4966114af1ef598f4e6e2da3461df286868a807119c8ae5b3feb2425"
+        },
+        {
+          "path": "ANALISI_CODICE.md",
+          "sha256": "96d36ea8d81a59c3844b1e7fa5fbabfa3b080eb988f9139699f13eb9a138fdf6"
+        },
+        {
+          "path": "bot.py",
+          "sha256": "c11ca4cc01d4f30b3ed416ebbaf6cea0a1b15df0624d704572d3cbe33528c55e"
+        },
+        {
+          "path": "fix_bot_indent.py",
+          "sha256": "aa855ae1ff730eb1a394e4e12191949a36b79cd755f54fcc5dca49c7e73725b2"
+        },
+        {
+          "path": "game/__init__.py",
+          "sha256": "65447b2eaca9df87e38808ca50de100539a52fc984deae91d7007d7e17b0d6c7"
+        },
+        {
+          "path": "game/boss.json",
+          "sha256": "5a13994df6c90700c669347149c31f2b6f6184f94ae2fb1be6ef23a8d7b0b683"
+        },
+        {
+          "path": "game/decks.py",
+          "sha256": "dbf5f1ce1f831b666fcc1db43112bc0c5af92cf824fabee668be586dbba02683"
+        },
+        {
+          "path": "game/demoni.json",
+          "sha256": "01ef9782d5522803b486f8e9ffcf56717d3437e09b982ccc04ee1e8e31c717d2"
+        },
+        {
+          "path": "game/entities.py",
+          "sha256": "f08eb77d8391373500e87035121404437621380945f62294d98ecb576696385d"
+        },
+        {
+          "path": "game/game.py",
+          "sha256": "b21c3f790167dc01ebaa90e6e6d274d445feceaf5cd7be4861ed09d5e2db63d5"
+        },
+        {
+          "path": "game/imprevisti.json",
+          "sha256": "ffe2c4c0a9c97a7ae2c6735d3cd76ffb152dc50b10c3ef39009099857f04177d"
+        },
+        {
+          "path": "game/rifornimenti.json",
+          "sha256": "10400e5bb23028303725ffcc423f7d20cfed898dd108eae48934e561a0ae9592"
+        },
+        {
+          "path": "main.py",
+          "sha256": "c7ce4dfbd3de3289eedf78d2f3856f065a73b8e366621022cb246af8b5a5b904"
+        },
+        {
+          "path": "rewrite_bot_decidi.py",
+          "sha256": "40a0836fe8c846004cad748b4a1e4628cabd1bd0ff4dcb7059e1d05ccefd3c7b"
+        },
+        {
+          "path": "show_helpers.py",
+          "sha256": "e24571d457bb43f46a59057b03db441b844629196dfe6344c2b8713ec942a8b7"
+        },
+        {
+          "path": "show_section.py",
+          "sha256": "6c2ffad05b9a737d0852a1e447d46fbf3202cadfdd796355326ddae2a403a76a"
+        }
+      ]
+    },
+    {
+      "id": "tributes_workbook",
+      "path": "esempi di carte/DEMONICUTE 2026_SFIDE/TRIBUTI AGGIORNAMENTO SFIDE.xlsx",
+      "status": "available_read_complete",
+      "bytes": 11386,
+      "sha256": "b40f4408818bd4cf1e9ef8fb21e4b58b2e7fdd4ce2ff0c730c572857536fc02e",
+      "sheet_names": [
+        "Foglio1"
+      ],
+      "has_demoni_sheet": false,
+      "nonempty_cells": 269,
+      "formula_count": 0,
+      "error_cells": [],
+      "active_game_content": false,
+      "authority": "Solo riferimento per confronto; non sostituisce cutes/Demoni e non abilita sfide o regole",
+      "extraction_markdown": "docs/sources/tributes-extracted.md",
+      "extraction_json": "docs/sources/tributes-extracted.json"
+    },
+    {
+      "id": "received_sfide_asset_folder",
+      "path": "esempi di carte/DEMONICUTE 2026_SFIDE",
+      "status": "received_and_asset_audited",
+      "file_counts_by_extension": {
+        ".jfif": 1,
+        ".otf": 1,
+        ".png": 120,
+        ".svg": 15,
+        ".xlsx": 1
+      },
+      "verified_card_png_files": 90,
+      "verified_card_png_dimensions": [
+        744,
+        1039
+      ],
+      "gallery_reference_count": 60,
+      "preserved_card_image_file_count": 181,
+      "active_game_content": false,
+      "authority": "Immagini e asset di supporto; SFIDE nel nome non modifica regole",
+      "review_document": "docs/CARD_ASSETS.md",
+      "detailed_image_manifest": "src/client/public/cards/manifest.json"
+    },
+    {
+      "id": "base_specification_v1_original",
+      "path": "docs/sources/base-specification-v1.md",
+      "status": "available_read_complete",
+      "bytes": 21714,
+      "sha256": "8bfcd1666995a9b6c186c11426a1a39ca92481a4bd5cd2265af4315c852e3382",
+      "authority": "Originale storico byte per byte; disposizioni incompatibili superate da Addendum 1"
+    },
+    {
+      "id": "addendum_1",
+      "path": "docs/addendum-1.md",
+      "status": "available_read_complete",
+      "bytes": 16040,
+      "sha256": "f0040c036f2684829f54868f27461f19775f108c192806d3c0694fdf57d6d781",
+      "authority": "Richiesta esplicita autore: prevalente sulle disposizioni incompatibili della bozza; regole aperte restano aperte",
+      "original_path": "C:\\Users\\tomma\\.codex\\attachments\\deb0a918-77b6-4cf2-9ad8-b046a8186519\\pasted-text.txt",
+      "copied_byte_identical": true,
+      "review_document": "docs/ADDENDUM_1_AUDIT.md"
+    },
+    {
+      "id": "ymir_boss_asset",
+      "expected_name": "Ymir / immagine Boss con lati",
+      "status": "not_identified_in_project_directories",
+      "sha256": null,
+      "authority": "Addendum §7 cita immagine; nome non trovato nelle cartelle verificate, nessun media GDD; JSON Boss storico non autorevole"
+    },
+    {
+      "id": "author_demons_2026_09_10",
+      "path": "docs/sources/author-demons-2026-09-10.tsv",
+      "original_path": "C:/Users/tomma/.codex/attachments/fd038fb2-bd82-45cf-8a09-c50c12fce742/pasted-text.txt",
+      "authority": "Lista esplicita autore: nomi, elementi, stelle, timing, note, effetti",
+      "row_count": 60,
+      "status": "available_read_and_copied",
+      "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25",
+      "bytes": 6977,
+      "copied_byte_identical": true,
+      "active_game_content": false
+    },
+    {
+      "id": "author_demon_costs_2026_09_10",
+      "path": "docs/sources/author-demon-costs-2026-09-10.json",
+      "original_path": "G:/Il mio Drive/cutes/2026/demonlord/demoni.json",
+      "authority": "Richiesta esplicita autore: importare soltanto costo, costo_tipo e costo_tipo_minimo per associazioni certe",
+      "row_count": 60,
+      "status": "available_read_and_copied",
+      "sha256": "1e6875f41c8d0d523b84c9500dfcdd11af87e0ade9f3b9f11298b3155f011478",
+      "bytes": 20288,
+      "copied_byte_identical": true,
+      "active_game_content": false
+    }
+  ],
+  "update_note": "Lista autore di 60 Demoni e JSON costi ricevuti il 10 settembre: 39 associazioni certe, 19 nomi mancanti, 2 alias da confermare. Catalogo consultabile; 0 effetti nuovi abilitati, nessun valore ufficiale inventato.",
+  "precedence": [
+    "author_2026_09_10_list_for_60_demon_data",
+    "author_2026_09_10_json_for_cost_fields_only",
+    "addendum_1_for_incompatible_provisions",
+    "base_specification_unmodified_provisions",
+    "gdd_provisional_states"
+  ],
+  "author_demon_list_count": 60,
+  "author_demon_costs_matched": 39,
+  "author_demon_costs_missing": 19,
+  "author_demon_cost_aliases_pending": 2,
+  "author_demon_effects_enabled": 0
+}

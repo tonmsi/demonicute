@@ -1,0 +1,2393 @@
+{
+  "metadata": {
+    "id": "author-demons-2026-09-10",
+    "version": "author-demons-2026-09-10-v1",
+    "kind": "author-supplied-list",
+    "path": "docs/sources/author-demons-2026-09-10.tsv",
+    "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25",
+    "byteLength": 6977,
+    "rowCount": 60,
+    "hasHeader": false,
+    "columnLabels": [
+      "name",
+      "element",
+      "stars",
+      "timing",
+      "notes",
+      "effect"
+    ],
+    "notice": "Lista fornita direttamente dall’autore. Nessun dato importato dai JSON storici; quinta colonna conservata come note, mai interpretata come costo. Testi disponibili, effetti non installati automaticamente nel motore."
+  },
+  "demons": [
+    {
+      "id": "author-demon-hafgufa",
+      "name": "HAFGUFA",
+      "element": "Acqua",
+      "stars": 3,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "SE C'è ALMENO 1 DEMONE 💧 NELLA SUA PILA.",
+      "effectRaw": "Prendi 2 carte a caso dagli scarti.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 1,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:1",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "HAFGUFA",
+        "Acqua",
+        "3",
+        "E",
+        "SE C'è ALMENO 1 DEMONE 💧 NELLA SUA PILA.",
+        "Prendi 2 carte a caso dagli scarti."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "text"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-windigo",
+      "name": "WINDIGO",
+      "element": "Acqua",
+      "stars": 2,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "sposta nel limbo?",
+      "effectRaw": "LIBERA 1 DEMONE DALLA PILA DI QUESTA CARTA per aumentare il lv⭐ di questa carta  di un valore uguale alle stelle di quel demone.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 2,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:2",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "WINDIGO",
+        "Acqua",
+        "2",
+        "E",
+        "sposta nel limbo?",
+        "LIBERA 1 DEMONE DALLA PILA DI QUESTA CARTA per aumentare il lv⭐ di questa carta  di un valore uguale alle stelle di quel demone."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "unresolved"
+      },
+      "issues": [
+        {
+          "code": "note-question",
+          "field": "notesRaw",
+          "message": "La nota dell’autore contiene una domanda ancora aperta; il testo effetto è conservato separatamente."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-medusa",
+      "name": "MEDUSA",
+      "element": "Acqua",
+      "stars": 2,
+      "timing": "A",
+      "timingRaw": "A",
+      "notesRaw": "",
+      "effectRaw": "Pesca e rivela una risorsa: se si tratta di una carta acqua, blocca un una pila di demoni.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 3,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:3",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "MEDUSA",
+        "Acqua",
+        "2",
+        "A",
+        "",
+        "Pesca e rivela una risorsa: se si tratta di una carta acqua, blocca un una pila di demoni."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-krampus",
+      "name": "KRAMPUS",
+      "element": "Acqua",
+      "stars": 2,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "",
+      "effectRaw": "Metti in pila sotto questa carta fino a 2 demoni di LV★ 1 dal limbo poi rivela carte evocazione fino ad averne scoperte un numero pari ai magisti.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 4,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:4",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "KRAMPUS",
+        "Acqua",
+        "2",
+        "E",
+        "",
+        "Metti in pila sotto questa carta fino a 2 demoni di LV★ 1 dal limbo poi rivela carte evocazione fino ad averne scoperte un numero pari ai magisti."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-zin",
+      "name": "ZIN",
+      "element": "Acqua",
+      "stars": 1,
+      "timing": "A",
+      "timingRaw": "A",
+      "notesRaw": "METTI QUESTA CARTA NEL LIMBO INVECE DI IMPILARLA",
+      "effectRaw": "Prendi un elemento dagli scarti. ",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 5,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:5",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "ZIN",
+        "Acqua",
+        "1",
+        "A",
+        "METTI QUESTA CARTA NEL LIMBO INVECE DI IMPILARLA",
+        "Prendi un elemento dagli scarti. "
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "text"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-kappa",
+      "name": "KAPPA",
+      "element": "Acqua",
+      "stars": 1,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "",
+      "effectRaw": "Pesca e rivela una risorsa: se si tratta di una carta acqua, libera un demone LV 1★.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 6,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:6",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "KAPPA",
+        "Acqua",
+        "1",
+        "E",
+        "",
+        "Pesca e rivela una risorsa: se si tratta di una carta acqua, libera un demone LV 1★."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-boto-cor-de-rosa",
+      "name": "BOTO COR DE ROSA",
+      "element": "Acqua",
+      "stars": 2,
+      "timing": "A",
+      "timingRaw": "A",
+      "notesRaw": "",
+      "effectRaw": "Scambia questa carta con un demone 💧 libero.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 7,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:7",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "BOTO COR DE ROSA",
+        "Acqua",
+        "2",
+        "A",
+        "",
+        "Scambia questa carta con un demone 💧 libero."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-selkie",
+      "name": "SELKIE",
+      "element": "Acqua",
+      "stars": 1,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "",
+      "effectRaw": "Prendi una carta a caso dagli scarti.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 8,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:8",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "SELKIE",
+        "Acqua",
+        "1",
+        "E",
+        "",
+        "Prendi una carta a caso dagli scarti."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-leprecauno",
+      "name": "LEPRECAUNO",
+      "element": "Acqua",
+      "stars": 1,
+      "timing": "E/P",
+      "timingRaw": "E/P",
+      "notesRaw": "",
+      "effectRaw": "Quando viene rivelato, entra sempre nella tua cerchia. Prendi un manufatto dagli scarti e giocalo.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 9,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:9",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "LEPRECAUNO",
+        "Acqua",
+        "1",
+        "E/P",
+        "",
+        "Quando viene rivelato, entra sempre nella tua cerchia. Prendi un manufatto dagli scarti e giocalo."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-sibilla",
+      "name": "SIBILLA",
+      "element": "Etere",
+      "stars": 2,
+      "timing": "P",
+      "timingRaw": "P",
+      "notesRaw": "",
+      "effectRaw": "Una volta per turno quando peschi una risorsa, puoi rimischiarla nel mazzo e pescarne una nuova.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 10,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:10",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "SIBILLA",
+        "Etere",
+        "2",
+        "P",
+        "",
+        "Una volta per turno quando peschi una risorsa, puoi rimischiarla nel mazzo e pescarne una nuova."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-guaeko",
+      "name": "GUAEKO",
+      "element": "Etere",
+      "stars": 1,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "",
+      "effectRaw": "Rivela le prime 3 risorse del mazzo: tieni le pergamagie e scarta le altre carte.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 11,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:11",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "GUAEKO",
+        "Etere",
+        "1",
+        "E",
+        "",
+        "Rivela le prime 3 risorse del mazzo: tieni le pergamagie e scarta le altre carte."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-baku",
+      "name": "BAKU",
+      "element": "Etere",
+      "stars": 1,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "",
+      "effectRaw": "Slocca una pila; aumenta il livello di Baku di un valore pari al livello del demone attivo sbloccato.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 12,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:12",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "BAKU",
+        "Etere",
+        "1",
+        "E",
+        "",
+        "Slocca una pila; aumenta il livello di Baku di un valore pari al livello del demone attivo sbloccato."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-leprechaun",
+      "name": "LEPRECHAUN",
+      "element": "Etere",
+      "stars": 1,
+      "timing": "E/P",
+      "timingRaw": "E/P",
+      "notesRaw": "QUANDO QUESTA CARTA VIENE RIVELATA ENTRA SEMPRE NELLA TUA CERCHIA.",
+      "effectRaw": "Scegli un manufatto attivo: l’abilità di questa carta diventa quella del manufatto.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 13,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:13",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "LEPRECHAUN",
+        "Etere",
+        "1",
+        "E/P",
+        "QUANDO QUESTA CARTA VIENE RIVELATA ENTRA SEMPRE NELLA TUA CERCHIA.",
+        "Scegli un manufatto attivo: l’abilità di questa carta diventa quella del manufatto."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "text"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-nekomata",
+      "name": "NEKOMATA",
+      "element": "Etere",
+      "stars": 1,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "",
+      "effectRaw": "Rimischia Nekomata nel mazzo evocazioni: pesca 3 risorse.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 14,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:14",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "NEKOMATA",
+        "Etere",
+        "1",
+        "E",
+        "",
+        "Rimischia Nekomata nel mazzo evocazioni: pesca 3 risorse."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-leviatano",
+      "name": "LEVIATANO",
+      "element": "Acqua",
+      "stars": 3,
+      "timing": "P",
+      "timingRaw": "P",
+      "notesRaw": "SE C'è ALMENO 1 DEMONE 💧 NELLA SUA PILA.",
+      "effectRaw": "Ogni volta che un demone viene bloccato puoi pescare una carta (fino al raggiungimento del limite di carte in mano).",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 15,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:15",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "LEVIATANO",
+        "Acqua",
+        "3",
+        "P",
+        "SE C'è ALMENO 1 DEMONE 💧 NELLA SUA PILA.",
+        "Ogni volta che un demone viene bloccato puoi pescare una carta (fino al raggiungimento del limite di carte in mano)."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "text"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-bunjip",
+      "name": "BUNJIP",
+      "element": "Acqua",
+      "stars": 3,
+      "timing": "A",
+      "timingRaw": "A",
+      "notesRaw": "",
+      "effectRaw": "Sostituisci un demone in una cerchia ( se è la tua attiva effetti entrata).",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 16,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:16",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "BUNJIP",
+        "Acqua",
+        "3",
+        "A",
+        "",
+        "Sostituisci un demone in una cerchia ( se è la tua attiva effetti entrata)."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-kraken",
+      "name": "KRAKEN",
+      "element": "Acqua",
+      "stars": 3,
+      "timing": "P",
+      "timingRaw": "P",
+      "notesRaw": "SE C'è ALMENO 1 DEMONE 💧 NELLA SUA PILA.",
+      "effectRaw": "Ogni volta che un magista prende una o più carte dagli scarti, puoi pescare una carta (fino al limite di carte in mano).",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 17,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:17",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "KRAKEN",
+        "Acqua",
+        "3",
+        "P",
+        "SE C'è ALMENO 1 DEMONE 💧 NELLA SUA PILA.",
+        "Ogni volta che un magista prende una o più carte dagli scarti, puoi pescare una carta (fino al limite di carte in mano)."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "text"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-ammit",
+      "name": "AMMIT",
+      "element": "Etere",
+      "stars": 2,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "",
+      "effectRaw": "Un magista a tua scelta libera un suo demone attivo.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 18,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:18",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "AMMIT",
+        "Etere",
+        "2",
+        "E",
+        "",
+        "Un magista a tua scelta libera un suo demone attivo."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-puka",
+      "name": "PUKA",
+      "element": "Etere",
+      "stars": 2,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "",
+      "effectRaw": "Fai un azione extra.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 19,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:19",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "PUKA",
+        "Etere",
+        "2",
+        "E",
+        "",
+        "Fai un azione extra."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-glasyabo",
+      "name": "GLASYABO",
+      "element": "Etere",
+      "stars": 2,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "",
+      "effectRaw": "Pesca e rivela una Risosrsa: se si tratta di una carta puro elemento, prendi una magia dagli scarti.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 20,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:20",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "GLASYABO",
+        "Etere",
+        "2",
+        "E",
+        "",
+        "Pesca e rivela una Risosrsa: se si tratta di una carta puro elemento, prendi una magia dagli scarti."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-el-coco",
+      "name": "EL COCO",
+      "element": "Etere",
+      "stars": 3,
+      "timing": "P",
+      "timingRaw": "P",
+      "notesRaw": "",
+      "effectRaw": "Se questa carta si trova nella tua cerchia a inizio turno pesca una carta e poi scartane 2; altrimenti rimettila nel limbo",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 21,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:21",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "EL COCO",
+        "Etere",
+        "3",
+        "P",
+        "",
+        "Se questa carta si trova nella tua cerchia a inizio turno pesca una carta e poi scartane 2; altrimenti rimettila nel limbo"
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-mammon",
+      "name": "MAMMON",
+      "element": "Etere",
+      "stars": 3,
+      "timing": "P",
+      "timingRaw": "P",
+      "notesRaw": "",
+      "effectRaw": "Ogni volta che un magista usa una pergamagia, puoi pescare una carta (fino al limite di carte in mano).",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 22,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:22",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "MAMMON",
+        "Etere",
+        "3",
+        "P",
+        "",
+        "Ogni volta che un magista usa una pergamagia, puoi pescare una carta (fino al limite di carte in mano)."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-samael",
+      "name": "SAMAEL",
+      "element": "Etere",
+      "stars": 3,
+      "timing": "A",
+      "timingRaw": "A",
+      "notesRaw": "",
+      "effectRaw": "Scambia 2 demoni dello stesso elemento presenti in cerchie diverse, poi blocca la pila di questa carta.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 23,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:23",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "SAMAEL",
+        "Etere",
+        "3",
+        "A",
+        "",
+        "Scambia 2 demoni dello stesso elemento presenti in cerchie diverse, poi blocca la pila di questa carta."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-lucifero",
+      "name": "LUCIFERO",
+      "element": "Etere",
+      "stars": 3,
+      "timing": "A",
+      "timingRaw": "A",
+      "notesRaw": "____",
+      "effectRaw": "LIBERA 1 DEMONE DALLA PILA DI QUESTA CARTA per usare l’abilità E di un demone presente in una qualsiasi cerchia.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 24,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:24",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "LUCIFERO",
+        "Etere",
+        "3",
+        "A",
+        "____",
+        "LIBERA 1 DEMONE DALLA PILA DI QUESTA CARTA per usare l’abilità E di un demone presente in una qualsiasi cerchia."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "unresolved"
+      },
+      "issues": [
+        {
+          "code": "note-placeholder",
+          "field": "notesRaw",
+          "message": "La quinta colonna contiene il segnaposto «____»; nessun valore è stato completato."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-tifone",
+      "name": "TIFONE",
+      "element": "Fuoco",
+      "stars": 3,
+      "timing": "unresolved",
+      "timingRaw": "A o E?",
+      "notesRaw": "____",
+      "effectRaw": "LIBERA 1 DEMONE DALLA PILA DI QUESTA CARTA per liberare un demone ATTIVO.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 25,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:25",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "TIFONE",
+        "Fuoco",
+        "3",
+        "A o E?",
+        "____",
+        "LIBERA 1 DEMONE DALLA PILA DI QUESTA CARTA per liberare un demone ATTIVO."
+      ],
+      "completeness": {
+        "timing": "unresolved",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "unresolved"
+      },
+      "issues": [
+        {
+          "code": "timing-ambiguous",
+          "field": "timingRaw",
+          "message": "Timing riportato come «A o E?»: non è stata scelta una delle alternative."
+        },
+        {
+          "code": "note-placeholder",
+          "field": "notesRaw",
+          "message": "La quinta colonna contiene il segnaposto «____»; nessun valore è stato completato."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-moloch",
+      "name": "MOLOCH",
+      "element": "Fuoco",
+      "stars": 3,
+      "timing": "P",
+      "timingRaw": "P",
+      "notesRaw": "",
+      "effectRaw": "Per ogni demone LV 1★ nella sua pila questa carta guadagna 1 LV★.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 26,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:26",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "MOLOCH",
+        "Fuoco",
+        "3",
+        "P",
+        "",
+        "Per ogni demone LV 1★ nella sua pila questa carta guadagna 1 LV★."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-orias",
+      "name": "ORIAS",
+      "element": "Fuoco",
+      "stars": 2,
+      "timing": "P",
+      "timingRaw": "P",
+      "notesRaw": "SE C'è ALMENO 1 DEMONE DI LV1★ NELLA SUA PILA.",
+      "effectRaw": "Ogni volta che giochi uno spostastelle puoi pescare una carta (fino al limite di carte in mano).",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 27,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:27",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "ORIAS",
+        "Fuoco",
+        "2",
+        "P",
+        "SE C'è ALMENO 1 DEMONE DI LV1★ NELLA SUA PILA.",
+        "Ogni volta che giochi uno spostastelle puoi pescare una carta (fino al limite di carte in mano)."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "text"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-huli",
+      "name": "HULI",
+      "element": "Fuoco",
+      "stars": 2,
+      "timing": "A",
+      "timingRaw": "A",
+      "notesRaw": "1",
+      "effectRaw": "Scarta una carta, prendi uno spostastelle dagli scarti.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 28,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:28",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "HULI",
+        "Fuoco",
+        "2",
+        "A",
+        "1",
+        "Scarta una carta, prendi uno spostastelle dagli scarti."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "unresolved"
+      },
+      "issues": [
+        {
+          "code": "note-marker-unresolved",
+          "field": "notesRaw",
+          "message": "Il marcatore «1» della quinta colonna è conservato senza attribuirgli un significato o un costo."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-raktabija",
+      "name": "RAKTABIJA",
+      "element": "Fuoco",
+      "stars": 3,
+      "timing": "P",
+      "timingRaw": "P",
+      "notesRaw": "1",
+      "effectRaw": "Quando viene liberato, puoi scartare una carta far tornare Raktabija nella attivo nella tua cerchia.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 29,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:29",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "RAKTABIJA",
+        "Fuoco",
+        "3",
+        "P",
+        "1",
+        "Quando viene liberato, puoi scartare una carta far tornare Raktabija nella attivo nella tua cerchia."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "unresolved"
+      },
+      "issues": [
+        {
+          "code": "note-marker-unresolved",
+          "field": "notesRaw",
+          "message": "Il marcatore «1» della quinta colonna è conservato senza attribuirgli un significato o un costo."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-babi",
+      "name": "BABI",
+      "element": "Fuoco",
+      "stars": 2,
+      "timing": "A",
+      "timingRaw": "A",
+      "notesRaw": "1",
+      "effectRaw": "Scambia questa carta con un demone 🔥 libero.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 30,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:30",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "BABI",
+        "Fuoco",
+        "2",
+        "A",
+        "1",
+        "Scambia questa carta con un demone 🔥 libero."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "unresolved"
+      },
+      "issues": [
+        {
+          "code": "note-marker-unresolved",
+          "field": "notesRaw",
+          "message": "Il marcatore «1» della quinta colonna è conservato senza attribuirgli un significato o un costo."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-pasan",
+      "name": "PASAN",
+      "element": "Fuoco",
+      "stars": 1,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "1",
+      "effectRaw": "Prendi uno spostastelle dal mazzo",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 31,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:31",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "PASAN",
+        "Fuoco",
+        "1",
+        "E",
+        "1",
+        "Prendi uno spostastelle dal mazzo"
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "unresolved"
+      },
+      "issues": [
+        {
+          "code": "note-marker-unresolved",
+          "field": "notesRaw",
+          "message": "Il marcatore «1» della quinta colonna è conservato senza attribuirgli un significato o un costo."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-amy",
+      "name": "AMY",
+      "element": "Fuoco",
+      "stars": 1,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "",
+      "effectRaw": "Pesca e rivela una risorsa: se si tratta di una carta fuoco aumenta di 2 il lv★ di questa carta.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 32,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:32",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "AMY",
+        "Fuoco",
+        "1",
+        "E",
+        "",
+        "Pesca e rivela una risorsa: se si tratta di una carta fuoco aumenta di 2 il lv★ di questa carta."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-jinn",
+      "name": "JINN",
+      "element": "Fuoco",
+      "stars": 1,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "METTI QUESTA CARTA NEL LIMBO INVECE DI IMPILARLA",
+      "effectRaw": "Scegli e attiva uno dei seguenti effetti: prendi uno spostatelle dagli scarti ; pesca 2 risorse.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 33,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:33",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "JINN",
+        "Fuoco",
+        "1",
+        "E",
+        "METTI QUESTA CARTA NEL LIMBO INVECE DI IMPILARLA",
+        "Scegli e attiva uno dei seguenti effetti: prendi uno spostatelle dagli scarti ; pesca 2 risorse."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "text"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-imp",
+      "name": "IMP",
+      "element": "Fuoco",
+      "stars": 1,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "QUANDO QUESTA CARTA VIENE RIVELATA ENTRA SEMPRE NELLA TUA CERCHIA.",
+      "effectRaw": "Distruggi un manufatto attivo.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 34,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:34",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "IMP",
+        "Fuoco",
+        "1",
+        "E",
+        "QUANDO QUESTA CARTA VIENE RIVELATA ENTRA SEMPRE NELLA TUA CERCHIA.",
+        "Distruggi un manufatto attivo."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "text"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-ryuto",
+      "name": "RYUTO",
+      "element": "Fuoco",
+      "stars": 1,
+      "timing": "P",
+      "timingRaw": "P",
+      "notesRaw": "",
+      "effectRaw": "Per ogni gemma in tuo possesso, questa carta guadagna 1 LV★.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 35,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:35",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "RYUTO",
+        "Fuoco",
+        "1",
+        "P",
+        "",
+        "Per ogni gemma in tuo possesso, questa carta guadagna 1 LV★."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-lenghelo",
+      "name": "LENGHELO",
+      "element": "Terra",
+      "stars": 1,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "QUANDO QUESTA CARTA VIENE RIVELATA ENTRA SEMPRE NELLA TUA CERCHIA.",
+      "effectRaw": "Se ci sono almeno 2 manufatti attivi, scambiali.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 36,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:36",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "LENGHELO",
+        "Terra",
+        "1",
+        "E",
+        "QUANDO QUESTA CARTA VIENE RIVELATA ENTRA SEMPRE NELLA TUA CERCHIA.",
+        "Se ci sono almeno 2 manufatti attivi, scambiali."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "text"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-jakalope",
+      "name": "JAKALOPE",
+      "element": "Terra",
+      "stars": 1,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "",
+      "effectRaw": "Prendi dal mazzo 1 carta elemento terra con valore esattamente 3.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 37,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:37",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "JAKALOPE",
+        "Terra",
+        "1",
+        "E",
+        "",
+        "Prendi dal mazzo 1 carta elemento terra con valore esattamente 3."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-euridice",
+      "name": "EURIDICE",
+      "element": "Terra",
+      "stars": 1,
+      "timing": "unresolved",
+      "timingRaw": "",
+      "notesRaw": "",
+      "effectRaw": "Scarta una pergamena: scambia un tuo demone attivo e uno nel limbo con LV★ uguale o inferiore.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 38,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:38",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "EURIDICE",
+        "Terra",
+        "1",
+        "",
+        "",
+        "Scarta una pergamena: scambia un tuo demone attivo e uno nel limbo con LV★ uguale o inferiore."
+      ],
+      "completeness": {
+        "timing": "unresolved",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": [
+        {
+          "code": "timing-missing",
+          "field": "timingRaw",
+          "message": "Timing non indicato nella fonte: nessuna classificazione automatica."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-kukegen",
+      "name": "KUKEGEN",
+      "element": "Terra",
+      "stars": 1,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "METTI QUESTA CARTA NEL LIMBO INVECE DI LIBERARLA",
+      "effectRaw": "Pesca 2 risorse, poi scarta una carta.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 39,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:39",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "KUKEGEN",
+        "Terra",
+        "1",
+        "E",
+        "METTI QUESTA CARTA NEL LIMBO INVECE DI LIBERARLA",
+        "Pesca 2 risorse, poi scarta una carta."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "text"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-yowie",
+      "name": "YOWIE",
+      "element": "Terra",
+      "stars": 2,
+      "timing": "A",
+      "timingRaw": "A",
+      "notesRaw": "",
+      "effectRaw": "Le risorse terra sono considerate etere (jolly) fino a fine turno.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 40,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:40",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "YOWIE",
+        "Terra",
+        "2",
+        "A",
+        "",
+        "Le risorse terra sono considerate etere (jolly) fino a fine turno."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-kotobuki",
+      "name": "KOTOBUKI",
+      "element": "Terra",
+      "stars": 2,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "",
+      "effectRaw": "Pesca e rivela 2 risorse: se tra esse è presente almeno una carta terra, scopri il DEUS",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 41,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:41",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "KOTOBUKI",
+        "Terra",
+        "2",
+        "E",
+        "",
+        "Pesca e rivela 2 risorse: se tra esse è presente almeno una carta terra, scopri il DEUS"
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-bafometto",
+      "name": "BAFOMETTO",
+      "element": "Fuoco",
+      "stars": 3,
+      "timing": "unresolved",
+      "timingRaw": "",
+      "notesRaw": "",
+      "effectRaw": "Aumenta di 2 il LV★ di questo demone fino a fine turno fino a fine turno.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 42,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:42",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "BAFOMETTO",
+        "Fuoco",
+        "3",
+        "",
+        "",
+        "Aumenta di 2 il LV★ di questo demone fino a fine turno fino a fine turno."
+      ],
+      "completeness": {
+        "timing": "unresolved",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": [
+        {
+          "code": "timing-missing",
+          "field": "timingRaw",
+          "message": "Timing non indicato nella fonte: nessuna classificazione automatica."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-akerbeltz",
+      "name": "AKERBELTZ",
+      "element": "Terra",
+      "stars": 2,
+      "timing": "P",
+      "timingRaw": "P",
+      "notesRaw": "",
+      "effectRaw": "Quando giochi una pergamena puoi scoprire e ruotare il DEUS di massimo 2 posizioni (scoprilo se è coperto).",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 43,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:43",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "AKERBELTZ",
+        "Terra",
+        "2",
+        "P",
+        "",
+        "Quando giochi una pergamena puoi scoprire e ruotare il DEUS di massimo 2 posizioni (scoprilo se è coperto)."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-badalischio",
+      "name": "BADALISCHIO",
+      "element": "Terra",
+      "stars": 2,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "",
+      "effectRaw": "Blocca un demone.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 44,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:44",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "BADALISCHIO",
+        "Terra",
+        "2",
+        "E",
+        "",
+        "Blocca un demone."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-ora",
+      "name": "ORA",
+      "element": "Aria",
+      "stars": 1,
+      "timing": "P",
+      "timingRaw": "P",
+      "notesRaw": "1",
+      "effectRaw": "Una volta per turno quando riveli una carta evocazione, puoi rimischiarla nel mazzo senza attivarla e rivelare la successiva.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 45,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:45",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "ORA",
+        "Aria",
+        "1",
+        "P",
+        "1",
+        "Una volta per turno quando riveli una carta evocazione, puoi rimischiarla nel mazzo senza attivarla e rivelare la successiva."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "unresolved"
+      },
+      "issues": [
+        {
+          "code": "note-marker-unresolved",
+          "field": "notesRaw",
+          "message": "Il marcatore «1» della quinta colonna è conservato senza attribuirgli un significato o un costo."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-nue",
+      "name": "NUE",
+      "element": "Aria",
+      "stars": 1,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "1",
+      "effectRaw": "Pesca una risorsa e mostrala: se è una carta aria puoi rubare una carta casuale dalla mano di un magista.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 46,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:46",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "NUE",
+        "Aria",
+        "1",
+        "E",
+        "1",
+        "Pesca una risorsa e mostrala: se è una carta aria puoi rubare una carta casuale dalla mano di un magista."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "unresolved"
+      },
+      "issues": [
+        {
+          "code": "note-marker-unresolved",
+          "field": "notesRaw",
+          "message": "Il marcatore «1» della quinta colonna è conservato senza attribuirgli un significato o un costo."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-mazmurello",
+      "name": "MAZMURELLO",
+      "element": "Aria",
+      "stars": 1,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "QUANDO QUESTA CARTA VIENE RIVELATA ENTRA SEMPRE NELLA TUA CERCHIA.",
+      "effectRaw": "Prendi un manufatto dal mazzo e attivalo.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 47,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:47",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "MAZMURELLO",
+        "Aria",
+        "1",
+        "E",
+        "QUANDO QUESTA CARTA VIENE RIVELATA ENTRA SEMPRE NELLA TUA CERCHIA.",
+        "Prendi un manufatto dal mazzo e attivalo."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "text"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-echidna",
+      "name": "ECHIDNA",
+      "element": "Terra",
+      "stars": 3,
+      "timing": "unresolved",
+      "timingRaw": "?",
+      "notesRaw": "",
+      "effectRaw": "Riattiva fino a 2 demoni con LV★ 1 in diverse pile e attiva i loro effetti entrata (se ce ne sono).",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 48,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:48",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "ECHIDNA",
+        "Terra",
+        "3",
+        "?",
+        "",
+        "Riattiva fino a 2 demoni con LV★ 1 in diverse pile e attiva i loro effetti entrata (se ce ne sono)."
+      ],
+      "completeness": {
+        "timing": "unresolved",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": [
+        {
+          "code": "timing-ambiguous",
+          "field": "timingRaw",
+          "message": "Timing riportato come «?»: non è stata scelta una delle alternative."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-behemoth",
+      "name": "BEHEMOTH",
+      "element": "Terra",
+      "stars": 3,
+      "timing": "P",
+      "timingRaw": "P",
+      "notesRaw": "",
+      "effectRaw": "Quando tenti un DEUS coperto, puoi ruotarlo di 1 posizione.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 49,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:49",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "BEHEMOTH",
+        "Terra",
+        "3",
+        "P",
+        "",
+        "Quando tenti un DEUS coperto, puoi ruotarlo di 1 posizione."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-belleth",
+      "name": "BELLETH",
+      "element": "Terra",
+      "stars": 3,
+      "timing": "A",
+      "timingRaw": "A",
+      "notesRaw": "",
+      "effectRaw": "Aggiungi sotto ad uno dei tuoi demoni attivi un demone non attivo dalla pila di un altro magista.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 50,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:50",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "BELLETH",
+        "Terra",
+        "3",
+        "A",
+        "",
+        "Aggiungi sotto ad uno dei tuoi demoni attivi un demone non attivo dalla pila di un altro magista."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-belfagor",
+      "name": "BELFAGOR",
+      "element": "Terra",
+      "stars": 3,
+      "timing": "unresolved",
+      "timingRaw": "",
+      "notesRaw": "",
+      "effectRaw": "Quando un demone entra in una cerchia puoi bloccarlo e disattivare il suo effetto entrata; se lo fai blocca questa carta. Alla fine del tuo turno sblocca gratis Belfagor.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 51,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:51",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "BELFAGOR",
+        "Terra",
+        "3",
+        "",
+        "",
+        "Quando un demone entra in una cerchia puoi bloccarlo e disattivare il suo effetto entrata; se lo fai blocca questa carta. Alla fine del tuo turno sblocca gratis Belfagor."
+      ],
+      "completeness": {
+        "timing": "unresolved",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": [
+        {
+          "code": "timing-missing",
+          "field": "timingRaw",
+          "message": "Timing non indicato nella fonte: nessuna classificazione automatica."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-ziz",
+      "name": "ZIZ",
+      "element": "Aria",
+      "stars": 3,
+      "timing": "unresolved",
+      "timingRaw": "",
+      "notesRaw": "",
+      "effectRaw": "Perndi 2 carte a caso dall mano di un magista, quel magista pesca una carta.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 52,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:52",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "ZIZ",
+        "Aria",
+        "3",
+        "",
+        "",
+        "Perndi 2 carte a caso dall mano di un magista, quel magista pesca una carta."
+      ],
+      "completeness": {
+        "timing": "unresolved",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": [
+        {
+          "code": "timing-missing",
+          "field": "timingRaw",
+          "message": "Timing non indicato nella fonte: nessuna classificazione automatica."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-lilith",
+      "name": "LILITH",
+      "element": "Aria",
+      "stars": 3,
+      "timing": "E",
+      "timingRaw": "E",
+      "notesRaw": "SE C'è ALMENO 1 DEMONE 🍃 NELLA SUA PILA.",
+      "effectRaw": "Scarta una carta vento per scegliere un demone nella cerchia di un magista e aggiungerlo alla tua.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 53,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:53",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "LILITH",
+        "Aria",
+        "3",
+        "E",
+        "SE C'è ALMENO 1 DEMONE 🍃 NELLA SUA PILA.",
+        "Scarta una carta vento per scegliere un demone nella cerchia di un magista e aggiungerlo alla tua."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "text"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-belzebu",
+      "name": "BELZEBU",
+      "element": "Aria",
+      "stars": 3,
+      "timing": "A",
+      "timingRaw": "A",
+      "notesRaw": "",
+      "effectRaw": "LIBERA 1 DEMONE DALLA PILA DI QUESTA CARTA Guarda la mano di un magista e rubagli una carta.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 54,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:54",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "BELZEBU",
+        "Aria",
+        "3",
+        "A",
+        "",
+        "LIBERA 1 DEMONE DALLA PILA DI QUESTA CARTA Guarda la mano di un magista e rubagli una carta."
+      ],
+      "completeness": {
+        "timing": "specified",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": []
+    },
+    {
+      "id": "author-demon-stolas",
+      "name": "STOLAS",
+      "element": "Aria",
+      "stars": 2,
+      "timing": "unresolved",
+      "timingRaw": "",
+      "notesRaw": "pesca un numero di carte pari alle gemme poi rimetti lo stesso numero dalla tua mano in cima al mazzo nellordine che vuoi",
+      "effectRaw": "Pesca una carta per ogni gemma in tuo possesso",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 55,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:55",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "STOLAS",
+        "Aria",
+        "2",
+        "",
+        "pesca un numero di carte pari alle gemme poi rimetti lo stesso numero dalla tua mano in cima al mazzo nellordine che vuoi",
+        "Pesca una carta per ogni gemma in tuo possesso"
+      ],
+      "completeness": {
+        "timing": "unresolved",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "unresolved"
+      },
+      "issues": [
+        {
+          "code": "timing-missing",
+          "field": "timingRaw",
+          "message": "Timing non indicato nella fonte: nessuna classificazione automatica."
+        },
+        {
+          "code": "effect-variants",
+          "field": "effectRaw",
+          "message": "La nota prevede anche restituzione e ordinamento delle carte in cima al mazzo; la colonna effetto riporta soltanto la pesca. Entrambe le formulazioni sono conservate, senza fusione."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-banshee",
+      "name": "BANSHEE",
+      "element": "Aria",
+      "stars": 1,
+      "timing": "unresolved",
+      "timingRaw": "",
+      "notesRaw": "1",
+      "effectRaw": "Ogni volta che viene rubata una carta dalla mano di un magista puoi pescare una carta, fino al limite di carte in mano.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 56,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:56",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "BANSHEE",
+        "Aria",
+        "1",
+        "",
+        "1",
+        "Ogni volta che viene rubata una carta dalla mano di un magista puoi pescare una carta, fino al limite di carte in mano."
+      ],
+      "completeness": {
+        "timing": "unresolved",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "unresolved"
+      },
+      "issues": [
+        {
+          "code": "timing-missing",
+          "field": "timingRaw",
+          "message": "Timing non indicato nella fonte: nessuna classificazione automatica."
+        },
+        {
+          "code": "note-marker-unresolved",
+          "field": "notesRaw",
+          "message": "Il marcatore «1» della quinta colonna è conservato senza attribuirgli un significato o un costo."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-arpia",
+      "name": "ARPIA",
+      "element": "Aria",
+      "stars": 2,
+      "timing": "unresolved",
+      "timingRaw": "",
+      "notesRaw": "1",
+      "effectRaw": "Metti in pila sotto questa carta 1 demone di LV★ 1 dal limbo poi rivela carte evocazione fino ad averne scoperte almeno 5.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 57,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:57",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "ARPIA",
+        "Aria",
+        "2",
+        "",
+        "1",
+        "Metti in pila sotto questa carta 1 demone di LV★ 1 dal limbo poi rivela carte evocazione fino ad averne scoperte almeno 5."
+      ],
+      "completeness": {
+        "timing": "unresolved",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "unresolved"
+      },
+      "issues": [
+        {
+          "code": "timing-missing",
+          "field": "timingRaw",
+          "message": "Timing non indicato nella fonte: nessuna classificazione automatica."
+        },
+        {
+          "code": "note-marker-unresolved",
+          "field": "notesRaw",
+          "message": "Il marcatore «1» della quinta colonna è conservato senza attribuirgli un significato o un costo."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-tengu",
+      "name": "TENGU",
+      "element": "Aria",
+      "stars": 2,
+      "timing": "unresolved",
+      "timingRaw": "",
+      "notesRaw": "1",
+      "effectRaw": "Libera questo demone e fai aggiungi alla tua cerchia un demone vento dal limbo.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 58,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:58",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "TENGU",
+        "Aria",
+        "2",
+        "",
+        "1",
+        "Libera questo demone e fai aggiungi alla tua cerchia un demone vento dal limbo."
+      ],
+      "completeness": {
+        "timing": "unresolved",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "unresolved"
+      },
+      "issues": [
+        {
+          "code": "timing-missing",
+          "field": "timingRaw",
+          "message": "Timing non indicato nella fonte: nessuna classificazione automatica."
+        },
+        {
+          "code": "note-marker-unresolved",
+          "field": "notesRaw",
+          "message": "Il marcatore «1» della quinta colonna è conservato senza attribuirgli un significato o un costo."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-anemos",
+      "name": "ANEMOS",
+      "element": "Aria",
+      "stars": 1,
+      "timing": "unresolved",
+      "timingRaw": "",
+      "notesRaw": "1",
+      "effectRaw": "Libera Anemos: aggiungi gratis alla tua cerchia un demone casuale dal LIMBO.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 59,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:59",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "ANEMOS",
+        "Aria",
+        "1",
+        "",
+        "1",
+        "Libera Anemos: aggiungi gratis alla tua cerchia un demone casuale dal LIMBO."
+      ],
+      "completeness": {
+        "timing": "unresolved",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "unresolved"
+      },
+      "issues": [
+        {
+          "code": "timing-missing",
+          "field": "timingRaw",
+          "message": "Timing non indicato nella fonte: nessuna classificazione automatica."
+        },
+        {
+          "code": "note-marker-unresolved",
+          "field": "notesRaw",
+          "message": "Il marcatore «1» della quinta colonna è conservato senza attribuirgli un significato o un costo."
+        }
+      ]
+    },
+    {
+      "id": "author-demon-camazotz",
+      "name": "CAMAZOTZ",
+      "element": "Aria",
+      "stars": 3,
+      "timing": "unresolved",
+      "timingRaw": "",
+      "notesRaw": "",
+      "effectRaw": "Ruba 1 carta a caso dalla mano di un altro magista per ogni demone vento nella pila di questa carta (compresa questa carta) e poi restituiscine 1.",
+      "cost": null,
+      "modifier": null,
+      "imagePath": null,
+      "source": {
+        "kind": "author-supplied-list",
+        "path": "docs/sources/author-demons-2026-09-10.tsv",
+        "row": 60,
+        "locator": "docs/sources/author-demons-2026-09-10.tsv:60",
+        "sha256": "73782cecc9c0a4ca4ae9e4170f84f72d4d5e37bb9b002dc4f717be3fbe421e25"
+      },
+      "rawColumns": [
+        "CAMAZOTZ",
+        "Aria",
+        "3",
+        "",
+        "",
+        "Ruba 1 carta a caso dalla mano di un altro magista per ogni demone vento nella pila di questa carta (compresa questa carta) e poi restituiscine 1."
+      ],
+      "completeness": {
+        "timing": "unresolved",
+        "cost": "not-provided",
+        "modifier": "not-provided",
+        "artwork": "not-provided",
+        "effect": "source-text-only",
+        "notes": "empty"
+      },
+      "issues": [
+        {
+          "code": "timing-missing",
+          "field": "timingRaw",
+          "message": "Timing non indicato nella fonte: nessuna classificazione automatica."
+        }
+      ]
+    }
+  ]
+}

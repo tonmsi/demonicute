@@ -1,0 +1,25 @@
+node_modules/
+.npm-cache/
+dist/
+reports/
+test-results/
+.env
+.env.*
+!.env.example
+*.log
+artifacts/
+playwright-report/
+coverage/
+
+# Materiali originali locali: il sito usa le copie in src/client/public/cards.
+/esempi di carte/
+
+# Credenziali e file locali degli strumenti.
+*.pem
+*.key
+*.p12
+*.pfx
+.codex/
+.agents/
+.DS_Store
+Thumbs.db

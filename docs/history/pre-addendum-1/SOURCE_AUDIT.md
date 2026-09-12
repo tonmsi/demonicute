@@ -1,0 +1,111 @@
+# Audit delle fonti Demonicute
+
+Data: 9 settembre 2026, aggiornato dopo la consegna di `esempi di carte/DEMONICUTE 2026_SFIDE`. L'incremento corrente verifica la base tecnica con carte di prova dichiarate. PDF, JPEG e nuovi PNG/SVG sono riferimenti grafici, separati dal mazzo attivo. È disponibile anche `TRIBUTI AGGIORNAMENTO SFIDE.xlsx`, che contiene solo `Foglio1` e nessun testo degli effetti. Il file autorizzato `cutes 26-07-12.xlsx` con il foglio `Demoni` manca ancora; il catalogo ufficiale e la copertura del 30% non sono determinabili.
+
+## Materiali verificati
+
+| Fonte | Disponibilità e lettura | Autorità e impiego |
+| --- | --- | --- |
+| `docs/specification.md`, copia di `Demonicute_Prompt_Codex_Alpha_senza_sfide_v1.md` | Letta integralmente nel workspace. | Specifica adottata per il nuovo progetto. Conserva la distinzione fra decisioni dell'autore, proposte tecniche e regole aperte. |
+| `Demonicute_GDD_Living_Document_v0_1_2.docx` | Presente e letto integralmente mediante estrazione OOXML: 1.346 paragrafi del corpo, 53 tabelle, altri 6 paragrafi nelle parti aggiuntive. | Base provvisoria delle regole generali, con gli stati originali. Il nome del file identifica la fonte; titolo e footer interni riportano versione 0.1. |
+| `cutes 26-07-12.xlsx`, solo foglio `Demoni` | Non trovato nelle due cartelle di progetto esaminate. Percorso richiesto all'autore. | Unica fonte autorizzata per caratteristiche ed effetti dei demoni ufficiali. Non sostituibile con GDD, nomi citati o JSON Python. |
+| `TRIBUTI AGGIORNAMENTO SFIDE.xlsx` | Letto integralmente in sola lettura: unico foglio visibile `Foglio1`, 269 celle non vuote, limiti A1:V35. Nessun foglio `Demoni`. | Nuova fonte descrittiva da confrontare, non equivalente al file `cutes` e non autorizzazione alle sfide. Nessun effetto o costo generale dedotto dalla griglia. |
+| `90 X CARTE TRIBUTO_STAMPA A4_08 09 2026.pdf` | Estratto e verificato visivamente dall'agente asset: 10 pagine A4, 90 occorrenze, 89 immagini carta distinte. Dettagli in [CARD_ASSETS.md](CARD_ASSETS.md). | Testi e immagini Tributo di riferimento. Copie fisiche ripetute non sono tipi distinti; disponibilità del PDF non abilita automaticamente effetti. |
+| Due JPEG originali WhatsApp | Identificati visivamente dall'agente asset: `WhatsApp Image 2026-09-08 at 08.56.26.jpeg` è `Succo di demone`; `WhatsApp Image 2026-09-08 at 08.56.51.jpeg` è `Venerare altri`. Entrambi 744×1039, leggibili e con proporzioni integre. Il DOCX non contiene media incorporati. | Galleria di immagini originali separata dalle fixture. L'identificazione deriva dalla lettura visiva, non dal nome file. |
+| Cartella `DEMONICUTE 2026_SFIDE` e sottocartelle | Inventario file ricevuti: 120 PNG, 15 SVG, 1 JFIF, 1 OTF e il workbook. L'agente asset ha verificato le 90 carte PNG originali 744×1039: 89 corrispondenze al PDF e una nuova Amuleto protettivo. Font/logo sono asset di supporto. | Conteggi di file, non tipi di carta. Galleria aggiornata a 60 riferimenti e 181 file carta conservati, sempre separati dal motore. Il nome della cartella non cambia le due capacità sfida disabilitate. |
+| `../demo` | Esaminato in sola lettura; avvio verificato. | Riferimento storico per architettura e difetti. Nessuna importazione automatica delle carte e nessuna traduzione automatica del motore. |
+
+La ricerca iniziale aveva dato esito negativo per Excel, PDF e immagini nelle cartelle `C:/Users/tomma/Desktop/demo` e `C:/Users/tomma/Desktop/demo_due`. L'autore ha poi aggiunto PDF, JPEG, asset e un workbook Tributi. Resta negativo il riscontro di `cutes 26-07-12.xlsx` nelle cartelle esaminate; non si descrive più genericamente «Excel mancante». Non è una ricerca nell'intero computer o nei contenuti di altre conversazioni. Il percorso Dropbox originale non era leggibile dall'agente di audit; è stata letta la copia della specifica nel workspace.
+
+L'estrazione riproducibile è [sources/gdd-extracted.md](sources/gdd-extracted.md), generata da [sources/extract_gdd.py](sources/extract_gdd.py) con il Python del runtime documenti bundled. [sources/gdd-extraction.json](sources/gdd-extraction.json) registra conteggi e SHA-256; [sources/manifest.json](sources/manifest.json) inventaria le fonti disponibili/mancanti e gli hash dei file storici esaminabili. I locatori `P0001` e `T001/R001/C001` indicano paragrafi e celle OOXML, non pagine impaginate. Sono inclusi i paragrafi vuoti e il testo di header, footer e parti note; non risultano modifiche tracciate. Alcuni caratteri anomali erano già nel testo sorgente e sono conservati. Nessun DOCX è stato modificato e nessun rendering è presentato come prodotto verificato.
+
+## Precedenze applicate
+
+Le decisioni esplicite dell'autore riportate nella specifica prevalgono sul GDD. Per i demoni prevale esclusivamente il foglio `Demoni`. `A` richiede un'azione; `P` non richiede un'azione ma non autorizza automaticamente gratuità completa, uso illimitato o reazioni fuori turno; `E` segue la reale entrata prevista dal testo. Il pentagono superiore non partecipa ai calcoli. Le stelle restano un valore distinto.
+
+Il GDD si presenta come bozza strutturale e dichiara non definitive le proposte: [P0009](sources/gdd-extracted.md#p0009), [P0018](sources/gdd-extracted.md#p0018), [P0022](sources/gdd-extracted.md#p0022), [P1342–P1345](sources/gdd-extracted.md#p1342). Un'indicazione presente in Appendice A non converte in conferma i parametri ancora proposti.
+
+Per magie e manufatti non è stata stabilita la precedenza fra eventuali testi diversi di PDF, immagini originali ed Excel. Il workbook Tributi ricevuto non contiene effetti testuali con cui confrontare quelli delle immagini e non risolve la precedenza. Le varianti rimangono conservate; una carta in conflitto resta disabilitata. Un'immagine disponibile non convalida da sola il comportamento programmato.
+
+La lettura visiva dei JPEG identifica `Succo di demone` come manufatto `A` con pesca/rivelazione di Tributo e possibile risveglio di un demone addormentato se la carta è un Elemento: il comportamento resta sospeso per i dettagli di Tributo, manufatti e risveglio. `Venerare altri` è una magia con icona `P` che interviene durante una sfida Boss: rimane rinviata per sfide disabilitate. Non viene abilitata soltanto la parte pescante del manufatto e non viene trasformata la magia in un generico passivo continuo.
+
+## Audit del workbook Tributi ricevuto
+
+Estrazione completa: [sources/tributes-extracted.md](sources/tributes-extracted.md) e [sources/tributes-extracted.json](sources/tributes-extracted.json), riproducibili con [sources/extract_tributes.py](sources/extract_tributes.py). Lettura con Python bundled e `openpyxl`, senza salvare o modificare l'Excel. Le 269 celle sono conservate con coordinate precise, valore e tipo. Non ci sono formule, errori di cella memorizzati, immagini incorporate o testo aggiuntivo nel drawing XML vuoto. Il foglio unico è visibile; non esiste un foglio nascosto `Demoni`.
+
+| Fonte precisa | Contenuto riscontrato | Interpretazione consentita |
+| --- | --- | --- |
+| `Foglio1!A1` | `75x CARTE SFIDA` | Titolo del foglio, non denominatore dei tipi ufficiali e non regola attiva. Il PDF precedente contiene 90 occorrenze: le due composizioni non vengono fuse. |
+| `Foglio1!B2`, `F2`, `J2`, `N2`, `R2` | TERRA, VENTO, ACQUA, ETERE, FUOCO | Nomi scritti nella fonte. `VENTO` non viene automaticamente equiparato ad `Aria` del GDD. |
+| `Foglio1!B3:U13` | 11 righe per ciascuno dei 5 blocchi elemento: 55 combinazioni di serie `X`, segni `+`/`-`, valori, `o` e `§`. | Notazione conservata. Manca una legenda testuale che consenta di dedurre regole generali di pagamento, jolly, riciclo o risoluzione sfide. |
+| `Foglio1!M11` rispetto a `E11`, `I11`, `Q11`, `U11` | Il blocco Acqua contiene il valore `2`, gli altri quattro il simbolo `§`. | Variante puntuale registrata, senza normalizzarla né correggerla per simmetria. |
+| `Foglio1!A14:A24` | Sezione MANUFATTI: 9 nomi e un segnaposto `xxxxx`; colonne laterali con segni, valori e alcune alternative `oppure`. | Inventario non completo, senza testo abilità, icone A/P/E o spiegazione del significato delle alternative. |
+| `Foglio1!A25:A35` | Sezione PERGAMENE: 10 righe chiamate `xxxxx`, con segni, valori e `oppure`. | Dieci segnaposto, non dieci carte identificate; non importati nel catalogo. |
+| Tutto `Foglio1!A1:V35` | Nessuna definizione testuale di pesca per azione, pagamento generale, mano iniziale/limite, addormentamento/risveglio o regole complete delle sfide. | I relativi punti aperti non sono chiusi dal nuovo workbook. I parametri delle fixture restano esplicitamente tecnici. |
+
+I nove nomi dei manufatti sono `lancia divina` (`A15`), `necronomicon` (`A16`), `avvocato del diavolo` (`A17`), `sfera di cristallo` (`A18`), `abadir` (`A19`), `l'unto` (`A20`), `amuleto protettivo` (`A21`), `kit goezia del magista` (`A22`) e `succo di demone` (`A23`). Non vengono aggiunti ai demoni né usati per inventare effetti mancanti.
+
+Confronto con i testi PDF/JPEG trascritti dall'audit asset:
+
+- Necronomicon, Sfera di cristallo, Abadir, L'unto, Succo di demone e Amuleto protettivo hanno nomi corrispondenti ai riferimenti visivi, ma l'Excel non riporta i loro effetti: non esiste un conflitto testuale confrontabile da risolvere e il solo nome non aggiunge una conferma regolamentare. Amuleto protettivo è stato identificato nei nuovi PNG, non nel precedente PDF.
+- `kit goezia del magista` in `Foglio1!A22` differisce dal titolo stampato `Kit Goetia del Magista` nel PDF, pagina 1/riga 1/colonna 3. È conservata una variante nominale, senza scegliere automaticamente il nome autorevole.
+- Lancia divina e Avvocato del diavolo non coincidono con i 20 titoli nominali identificati dopo l'audit dei nuovi PNG. Non sono trattati come rinomine automatiche di Bacchetta magica o di altri riferimenti e non hanno un effetto attribuito dall'Excel.
+- I 55 blocchi-elemento del foglio e le 55 occorrenze grafiche delle risorse nel PDF coincidono nel numero, ma non bastano a dimostrare equivalenza uno a uno o la composizione definitiva di un mazzo. Il pentagono superiore continua a essere escluso dalle meccaniche.
+
+## Contrasti e lacune rilevanti
+
+| Tema | Evidenza precisa | Decisione per l'incremento |
+| --- | --- | --- |
+| Numero azioni, slot e Pile | Due azioni in [P0344](sources/gdd-extracted.md#p0344)/[P1228](sources/gdd-extracted.md#p1228); quattro slot e Famiglio separato in [P0471](sources/gdd-extracted.md#p0471)/[P1230](sources/gdd-extracted.md#p1230); massimo tre per Pila proposto in [P0577](sources/gdd-extracted.md#p0577) e Q-004. | Preset provvisorio dichiarato: 2 azioni, 4 slot, massimo 3 carte per Pila. Nessuna attestazione di bilanciamento. |
+| Mano iniziale e limite mano | Cinque carte proposte in [P0340](sources/gdd-extracted.md#p0340). Il controllo del limite compare in [P0357](sources/gdd-extracted.md#p0357)/[P0387](sources/gdd-extracted.md#p0387), senza valore determinato. | Mano iniziale 5 dal preset GDD; massimo 20 soltanto nelle fixture tecniche. |
+| Pesca per azione | [P0363–P0365](sources/gdd-extracted.md#p0363) assegna un'azione alla pesca ma non ne precisa la quantità. [P0633](sources/gdd-extracted.md#p0633) definisce il verbo al singolare, senza fissare la quantità dell'azione. | Nessuna quantità ufficiale dedotta. La fixture pesca una carta. |
+| Pagamento ed Etere | [P0368](sources/gdd-extracted.md#p0368)/[P0692](sources/gdd-extracted.md#p0692): costo specifico e generico. Etere jolly è ancora condizionato in [P0649](sources/gdd-extracted.md#p0649), consigliato in [P1240](sources/gdd-extracted.md#p1240). | Nessuna deduzione di cambio, resto, sovrapagamento o compatibilità. Fixture con sole risorse generiche di valore 1 e pagamento esatto. |
+| Limbo | [P0485](sources/gdd-extracted.md#p0485)/[P1236](sources/gdd-extracted.md#p1236): capienza pari ai partecipanti oppure 5. Rifornimento immediato in [P0489](sources/gdd-extracted.md#p0489)/[P0696](sources/gdd-extracted.md#p0696). Pila del Limbo ancora da definire in [P0493](sources/gdd-extracted.md#p0493). | Scelta esplicita dell'alternativa proposta 5; nessuna Pila del Limbo. Carte reali che vi aggiungono demoni oltre capienza richiedono decisione specifica. |
+| Famigli | Una stella indicata in [P0192](sources/gdd-extracted.md#p0192). [P0194](sources/gdd-extracted.md#p0194), sotto «Da chiarire», descrive Famiglio senza slot, non impilabile/distruttibile/bloccabile/sostituibile ma contato come demone; [P0580](sources/gdd-extracted.md#p0580) lo presenta come proposta; [P1015](sources/gdd-extracted.md#p1015) e Q-003 [P1258](sources/gdd-extracted.md#p1258) riaprono effetti e bersagliabilità. | Famigli sospesi. Non attribuire stella, elemento, immunità o effetto implicito ai giocatori. |
+| Bloccato, addormentato, inattivo | [P0568](sources/gdd-extracted.md#p0568) accosta «stelle: da decidere» a «non contano, non può essere sostituito». [P0637](sources/gdd-extracted.md#p0637) rinvia il dettaglio; Q-005 [P1266](sources/gdd-extracted.md#p1266) chiede ancora se bloccare stelle, effetti o entrambi. «Addormentato» e una regola completa di risveglio non sono definiti nel testo letto. | Nessuna equivalenza automatica. Le carte sotto una cima sono inattive e non contribuiscono; blocco, sonno, risveglio e durate restano sospesi. |
+| Entrata e scopertura | [P0551–P0553](sources/gdd-extracted.md#p0551) e [P0587](sources/gdd-extracted.md#p0587): entrata da fonte valida nella Cerchia. [P0559](sources/gdd-extracted.md#p0559)/[P0597](sources/gdd-extracted.md#p0597): scoprire rende attivo il demone sotto. [P0623](sources/gdd-extracted.md#p0623): entrare richiede uno spostamento nella zona. | Scoprire non scatena automaticamente `E`. La fixture `E` si risolve quando il demone viene evocato nella Cerchia. |
+| Fato | [P0339](sources/gdd-extracted.md#p0339): setup con alternative ignorare/risolvere/fondo, da confermare. [P0491](sources/gdd-extracted.md#p0491)/[P0697](sources/gdd-extracted.md#p0697): risoluzione durante il rifornimento. | Fato assente dal preset tecnico, compreso il setup. Nessuna scelta nascosta fra le alternative. |
+| Scarti, Cimitero ed esaurimento | [P0498](sources/gdd-extracted.md#p0498) e Q-002: zone in sospeso. [P0507](sources/gdd-extracted.md#p0507) suggerisce demoni rimossi in fondo al mazzo. Nessuna regola completa di riciclo a mazzi esauriti. | Scarti di risorse delle fixture separati; nessun riciclo. Chiusura per limite tecnico o arresto del test, mai vittoria/pareggio. Rimozione dei demoni reali sospesa. |
+| Tributo e Rifornimento | Il GDD usa Rifornimento in [P0308–P0310](sources/gdd-extracted.md#p0308); il PDF ora disponibile si chiama Tributo. | Relazione terminologica non risolta dalla sola disponibilità dell'asset. Non creare automaticamente due mazzi ufficiali né dichiarare sinonimi i termini. |
+| Pergamagie e Manufatti | [P0371](sources/gdd-extracted.md#p0371): un'azione oppure proposta di costo energetico. [P0374](sources/gdd-extracted.md#p0374)/[P1142](sources/gdd-extracted.md#p1142): attivazione base senza azione ma abilità eventualmente con azione. Limite 1 consigliato in [P0271](sources/gdd-extracted.md#p0271), ancora da confermare in Q-009. | Categorie sospese finché fonti e limiti applicabili non sono verificati. Non dedurre gratuità o capienza dal vecchio Python. |
+| Reazioni | [P0667–P0688](sources/gdd-extracted.md#p0667) dà una priorità consigliata, non tutte le regole per concorrenza, catene e bersagli. La specifica §9 richiede inizialmente 5 secondi configurabili. | Reazioni inattive nelle fixture. Cinque secondi è la configurazione futura richiesta, non una finestra già implementata o un'autorizzazione al primo clic. |
+| Boss, duelli e Gemme | Calcolo Boss in [P0699–P0706](sources/gdd-extracted.md#p0699)/[P1242](sources/gdd-extracted.md#p1242); duello incompleto in Appendice C; vittoria standard definita nel GDD in [P0395–P0397](sources/gdd-extracted.md#p0395). | Specifica §4 prevalente: due capacità distinte e disabilitate, nessuna sfida numerica di ripiego, nessuna Gemma acquisibile e nessuna vittoria alternativa. Dipendenze dirette e indirette escluse. |
+
+## Riferimento Python e limiti del recupero
+
+Il prototipo storico contiene soltanto una simulazione fra tre bot, con output terminale, motore monolitico, entità e quattro JSON. Contiene 50 rifornimenti, 60 demoni, 12 imprevisti e 20 boss; questi conteggi descrivono la vecchia configurazione e non il denominatore ufficiale dell'alpha.
+
+`python -B main.py`, eseguito in `../demo` senza scrivere bytecode, fallisce con `JSONDecodeError: Unexpected UTF-8 BOM` su `game/imprevisti.json`. Sostituendo soltanto in memoria il lettore con `utf-8-sig`, il costruttore fallisce con `AttributeError` per `_imprevisto_giorno_di_festa`. L'analisi dei metodi conferma dodici handler imprevisto registrati e mancanti. Queste verifiche sono riproduzioni limitate dei blocchi di avvio, non una convalida del regolamento storico.
+
+Il file storico `ANALISI_CODICE.md` elenca ulteriori difetti, fra cui stalli, effetti discordanti e consumo azioni. È stato letto come analisi preesistente; quei rilievi non sono tutti stati rieseguiti durante questo incremento. Non sono stati modificati gli originali o eseguiti gli script storici di riscrittura.
+
+## Passaggio al catalogo reale
+
+PDF, JPEG e workbook Tributi ricevuti sono registrati con hash e provenienza nel manifest fonti; PNG originali, lettura visiva e ID degli asset sono seguiti dall'audit asset senza inserirli nel catalogo attivo. All'arrivo del workbook autorizzato `cutes 26-07-12.xlsx`: leggere esclusivamente `Demoni` per i demoni, distinguere tipi da copie, confrontare eventuali varianti e compilare la copertura carta per carta. Solo dopo si può fissare il denominatore del circa 30% e scegliere carte con effetti interamente raggiungibili nel preset senza sfide. La [matrice regole](RULES_MATRIX.md) mantiene separati questi blocchi dalla base tecnica eseguibile.
+
+## Chiarimenti per il prossimo incremento di carte
+
+Le disponibilità e decisioni già accertate non richiedono una nuova domanda all'autore:
+
+| Punto chiuso | Evidenza |
+| --- | --- |
+| Il workbook appena ricevuto è stato trovato e letto integralmente; non contiene `Demoni`. | `TRIBUTI AGGIORNAMENTO SFIDE.xlsx`: un solo `Foglio1`, 269 celle non vuote. Nessuna equivalenza al workbook `cutes` presunta. |
+| Le immagini originali sono disponibili, comprese Succo di demone, Venerare altri e Amuleto protettivo. | Audit visivo dei nuovi PNG/JPEG; galleria di soli riferimenti aggiornata. |
+| Il titolo Psicacogia è identificato; i simboli di `1,2,3... Stella!` risultano integri. | Conferma del nome nel file `15_PSICACOGIA.png` e controllo a dettaglio originale dell'agente asset. La precedente impressione di taglio nella piccola anteprima non è un difetto dell'originale. |
+| A consuma un'azione; P non ne consuma; E richiede le condizioni d'entrata; pentagono escluso. | Decisioni già esplicite in SPEC §2. Restano dipendenti dal testo eventuali costi, frequenze e momenti d'uso. |
+| Boss e duelli restano disabilitati, senza vittoria alternativa. | SPEC §4. Né il percorso `SFIDE` né il titolo Excel cambiano questa decisione. |
+| Il preset di sviluppo usa 2 azioni, 4 slot, Pile da 3, Limbo 5, mano iniziale 5 e fixture dichiarate. | Proposte GDD scelte; test tecnici superati. Non serve riconfermarle per continuare la base tecnica. |
+
+Per integrare davvero le prime carte reali servono invece decisioni mirate, solo quando il sottoinsieme scelto ne dipende:
+
+| Priorità | Informazione ancora necessaria | Perché serve |
+| --- | --- | --- |
+| Prima dei demoni reali | Percorso/file `cutes 26-07-12.xlsx`, foglio `Demoni`. | Mancano caratteristiche, effetti e denominatore dei demoni autorizzati. Il nuovo Excel non li contiene. |
+| Prima di definire il mazzo Tributo attivo | Relazione Tributo/Rifornimento, composizione e quantità delle carte nel preset; fonte prevalente fra eventuali varianti d'immagine/testo. | PDF e PNG hanno 90 occorrenze; il workbook titola 75 carte Sfida e conserva segnaposto. Non esiste una composizione ufficiale deducibile fondendo le fonti. |
+| Prima di abilitare pesca e pagamenti reali | Quante carte si pescano per azione; modalità del pagamento specifico/generico, Etere, sovrapagamento/resto; limite mano e destino scarti/esaurimento. | Il nuovo workbook non fornisce queste definizioni. I valori delle fixture non possono diventare regole dell'autore senza una decisione. |
+| Solo per manufatti selezionati | Costo/modalità di entrata, limite dei manufatti attivi, frequenza e momento degli effetti. | Le icone A/P e la griglia numerica non risolvono tutti questi dettagli. |
+| Solo per Succo, L'unto o Amuleto selezionati | Definizione di addormentato, differenza da bloccato/inattivo, condizioni di risveglio e interazione con le Pile. | Succo risveglia, L'unto addormenta, Amuleto protegge: non si possono abilitare effetti parziali o equivalenze inventate. |
+| Solo per un effetto con risposta selezionato | Ordine fra risposte concorrenti, possibilità di rispondere a una risposta e tempo per scegliere bersagli. | Cinque secondi è già il timeout iniziale richiesto, ma non definisce la catena di risposta. |
+| Prima del mapping definitivo dei contenuti coinvolti | Alias `Vento`/`Aria` e variante nominale `goezia`/`Goetia`; identificazione di Lancia divina e Avvocato del diavolo se incluse. | Evita fondere carte o elementi solo per somiglianza. I file conservano già entrambe le varianti. |
+
+Non serve risolvere ora il sistema delle sfide o la legenda dei loro eventuali modificatori per continuare menu, rete, galleria e fixture. Le celle `X`, `o`, `§`, `+`/`-`, le alternative `oppure` e la variante `M11=2` rimangono registrate per il futuro modulo; vanno chiarite prima di usarle come regole, non prima di qualsiasi lavoro indipendente.

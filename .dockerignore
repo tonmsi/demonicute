@@ -1,0 +1,19 @@
+node_modules
+.npm-cache
+dist
+artifacts
+test-results
+esempi di carte
+*.docx
+.git
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+.codex
+.agents
+reports
+playwright-report
+coverage

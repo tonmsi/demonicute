@@ -1,0 +1,1402 @@
+{
+  "source": "esempi di carte/DEMONICUTE 2026_SFIDE/TRIBUTI AGGIORNAMENTO SFIDE.xlsx",
+  "sha256": "b40f4408818bd4cf1e9ef8fb21e4b58b2e7fdd4ce2ff0c730c572857536fc02e",
+  "sheet_names": [
+    "Foglio1"
+  ],
+  "has_demoni_sheet": false,
+  "authority": "New source under review; not a substitute for cutes 26-07-12.xlsx or author confirmation.",
+  "active_game_content": false,
+  "sheets": [
+    {
+      "name": "Foglio1",
+      "state": "visible",
+      "max_row": 35,
+      "max_column": 22,
+      "merged_ranges": [
+        "A30:B30",
+        "A24:B24",
+        "A15:B15",
+        "A16:B16",
+        "A25:B25",
+        "A18:B18",
+        "A27:B27",
+        "A26:B26",
+        "A21:B21",
+        "A33:B33",
+        "A32:B32",
+        "A17:B17",
+        "A23:B23",
+        "A22:B22",
+        "A35:B35",
+        "A20:B20",
+        "A29:B29",
+        "A19:B19",
+        "A28:B28",
+        "A31:B31",
+        "A34:B34"
+      ],
+      "hidden_rows": [],
+      "hidden_columns": [],
+      "cells": [
+        {
+          "coordinate": "A1",
+          "value": "75x CARTE SFIDA",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "A2",
+          "value": "ELEMENTI",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "B2",
+          "value": "TERRA",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "F2",
+          "value": "VENTO",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "J2",
+          "value": "ACQUA",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "N2",
+          "value": "ETERE",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "R2",
+          "value": "FUOCO",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "B3",
+          "value": "XX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C3",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D3",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F3",
+          "value": "XX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G3",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H3",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "J3",
+          "value": "XX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "K3",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "L3",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "N3",
+          "value": "XX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "O3",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "P3",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "R3",
+          "value": "XX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "S3",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "T3",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "B4",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D4",
+          "value": "o",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "F4",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H4",
+          "value": "o",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "J4",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "L4",
+          "value": "o",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "N4",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "P4",
+          "value": "o",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "R4",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "T4",
+          "value": "o",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "B5",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C5",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D5",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F5",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G5",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H5",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "J5",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "K5",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "L5",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "N5",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "O5",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "P5",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "R5",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "S5",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "T5",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "B6",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C6",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D6",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F6",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G6",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H6",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "J6",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "K6",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "L6",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "N6",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "O6",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "P6",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "R6",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "S6",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "T6",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "B7",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D7",
+          "value": "X",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "F7",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H7",
+          "value": "X",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "J7",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "L7",
+          "value": "X",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "N7",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "P7",
+          "value": "X",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "R7",
+          "value": "XXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "T7",
+          "value": "X",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "B8",
+          "value": "XXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C8",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D8",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "E8",
+          "value": "§",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "F8",
+          "value": "XXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G8",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H8",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "I8",
+          "value": "§",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "J8",
+          "value": "XXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "K8",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "L8",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "M8",
+          "value": "§",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "N8",
+          "value": "XXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "O8",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "P8",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "Q8",
+          "value": "§",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "R8",
+          "value": "XXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "S8",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "T8",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "U8",
+          "value": "§",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "B9",
+          "value": "XXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D9",
+          "value": "o",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "F9",
+          "value": "XXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H9",
+          "value": "o",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "J9",
+          "value": "XXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "L9",
+          "value": "o",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "N9",
+          "value": "XXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "P9",
+          "value": "o",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "R9",
+          "value": "XXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "T9",
+          "value": "o",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "B10",
+          "value": "XXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D10",
+          "value": "X",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "F10",
+          "value": "XXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H10",
+          "value": "X",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "J10",
+          "value": "XXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "L10",
+          "value": "X",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "N10",
+          "value": "XXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "P10",
+          "value": "X",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "R10",
+          "value": "XXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "T10",
+          "value": "X",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "B11",
+          "value": "XXXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C11",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D11",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "E11",
+          "value": "§",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "F11",
+          "value": "XXXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G11",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H11",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "I11",
+          "value": "§",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "J11",
+          "value": "XXXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "K11",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "L11",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "M11",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "N11",
+          "value": "XXXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "O11",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "P11",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "Q11",
+          "value": "§",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "R11",
+          "value": "XXXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "S11",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "T11",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "U11",
+          "value": "§",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "B12",
+          "value": "XXXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C12",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D12",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F12",
+          "value": "XXXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G12",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H12",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "J12",
+          "value": "XXXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "K12",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "L12",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "N12",
+          "value": "XXXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "O12",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "P12",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "R12",
+          "value": "XXXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "S12",
+          "value": "-",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "T12",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "B13",
+          "value": "XXXXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C13",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D13",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F13",
+          "value": "XXXXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G13",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H13",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "J13",
+          "value": "XXXXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "K13",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "L13",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "N13",
+          "value": "XXXXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "O13",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "P13",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "R13",
+          "value": "XXXXXX",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "S13",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "T13",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A14",
+          "value": "MANUFATTI",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "A15",
+          "value": "lancia divina",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C15",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D15",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A16",
+          "value": "necronomicon",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C16",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D16",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A17",
+          "value": "avvocato del diavolo",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C17",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D17",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A18",
+          "value": "sfera di cristallo",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C18",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D18",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A19",
+          "value": "abadir",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C19",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D19",
+          "value": 2.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A20",
+          "value": "l'unto",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C20",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D20",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F20",
+          "value": "oppure",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G20",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H20",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A21",
+          "value": "amuleto protettivo",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C21",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D21",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F21",
+          "value": "oppure",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G21",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H21",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A22",
+          "value": "kit goezia del magista",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C22",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D22",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F22",
+          "value": "oppure",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G22",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H22",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A23",
+          "value": "succo di demone",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C23",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D23",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F23",
+          "value": "oppure",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G23",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H23",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A24",
+          "value": "xxxxx",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C24",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D24",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F24",
+          "value": "oppure",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G24",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H24",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A25",
+          "value": "PERGAMENE",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "A26",
+          "value": "xxxxx",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C26",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D26",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F26",
+          "value": "oppure",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G26",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H26",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A27",
+          "value": "xxxxx",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C27",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D27",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F27",
+          "value": "oppure",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G27",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H27",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A28",
+          "value": "xxxxx",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C28",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D28",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F28",
+          "value": "oppure",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G28",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H28",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A29",
+          "value": "xxxxx",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C29",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D29",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F29",
+          "value": "oppure",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G29",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H29",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A30",
+          "value": "xxxxx",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C30",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D30",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F30",
+          "value": "oppure",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G30",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H30",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A31",
+          "value": "xxxxx",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C31",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D31",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F31",
+          "value": "oppure",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G31",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H31",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A32",
+          "value": "xxxxx",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C32",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D32",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F32",
+          "value": "oppure",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G32",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H32",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A33",
+          "value": "xxxxx",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C33",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D33",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F33",
+          "value": "oppure",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G33",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H33",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A34",
+          "value": "xxxxx",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C34",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D34",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F34",
+          "value": "oppure",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G34",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H34",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "A35",
+          "value": "xxxxx",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "C35",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "D35",
+          "value": 1.0,
+          "data_type": "n"
+        },
+        {
+          "coordinate": "F35",
+          "value": "oppure",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "G35",
+          "value": "+",
+          "data_type": "s"
+        },
+        {
+          "coordinate": "H35",
+          "value": 1.0,
+          "data_type": "n"
+        }
+      ],
+      "nonempty_cells": 269
+    }
+  ],
+  "additional_objects": {
+    "drawing_parts": [
+      "xl/drawings/drawing1.xml"
+    ],
+    "drawing_text": {
+      "xl/drawings/drawing1.xml": []
+    },
+    "embedded_media": []
+  },
+  "formula_count": 0,
+  "error_cells": []
+}

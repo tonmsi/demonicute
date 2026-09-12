@@ -1,0 +1,16 @@
+[
+  {
+    "id": "DemonicuteTypo-Regular.otf",
+    "publicPath": "/cards/branding/DemonicuteTypo-Regular.otf",
+    "sourceFile": "esempi di carte/DEMONICUTE 2026_SFIDE/ASSETS/DemonicuteTypo-Regular.otf",
+    "sha256": "01a55afde8244378e576658b0fa6151159d377d77d6a54d6b77614a89c97d78b",
+    "usage": "Original author font; branding/headings only, not body text."
+  },
+  {
+    "id": "edition-logo.png",
+    "publicPath": "/cards/branding/edition-logo.png",
+    "sourceFile": "esempi di carte/DEMONICUTE 2026_SFIDE/ASSETS/edition_logo.png",
+    "sha256": "c8fa9d1156db6c3362e44bff1bb9daad32a2302643a2906bcaab1d2ad740fc86",
+    "usage": "Original edition logo; branding only, no gameplay bonus."
+  }
+]

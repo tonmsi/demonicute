@@ -1,0 +1,22 @@
+# Un processo conserva stanze e sessioni in memoria: non abilitare autoscaling.
+services:
+  - type: web
+    name: demonicute-alpha
+    runtime: node
+    region: frankfurt
+    plan: free
+    numInstances: 1
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: node dist/runtime/src/server/index.js
+    healthCheckPath: /api/health
+    # Aggiornare a partita finita: ogni deploy elimina lo stato in memoria.
+    autoDeployTrigger: "off"
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: "10000"
+      # PUBLIC_ORIGIN usa automaticamente RENDER_EXTERNAL_URL.
+      # Per un dominio personalizzato impostare PUBLIC_ORIGIN nel dashboard.

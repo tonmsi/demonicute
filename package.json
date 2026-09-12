@@ -1,0 +1,36 @@
+{
+  "name": "demonicute-alpha",
+  "version": "0.2.1",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "npm run compile && node dist/runtime/src/server/index.js --dev",
+    "start": "npm run compile && node dist/runtime/src/server/index.js",
+    "compile": "tsc -p tsconfig.runtime.json",
+    "build": "tsc --noEmit && npm run compile && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run compile && node --test dist/runtime/tests/*.test.js",
+    "simulate": "npm run compile --silent && node dist/runtime/src/simulator/index.js",
+    "test:browser": "playwright test"
+  },
+  "overrides": {
+    "nanoid": "3.3.18",
+    "qs": "6.16.0"
+  },
+  "dependencies": {
+    "@colyseus/core": "0.18.12",
+    "@colyseus/sdk": "0.18.2",
+    "@colyseus/ws-transport": "0.18.2",
+    "express": "4.22.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/express": "4.17.25",
+    "@types/node": "22.20.1",
+    "typescript": "5.9.3",
+    "vite": "7.3.6"
+  }
+}
